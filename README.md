@@ -34,7 +34,7 @@ style="width:500px">
 
 [Squid_Game](https://yuna012.github.io/Creative-Coding-Lab/Squid_Game).
 Project5
-<img src="screenshots/5png"
+<img src="screenshots/5.png"
 style="width:500px">
 
 ---
