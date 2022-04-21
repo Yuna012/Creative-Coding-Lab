@@ -12,6 +12,10 @@ style="width;500px">
 
 ---
 
+[02-yuna](https://yuna012.github.io/Creative-Coding-Lab/02-yuna).
+
+----
+
 [mouseIsPressed_doodling](https://yuna012.github.io/Creative-Coding-Lab/mouseIsPressed_doodling).
 Project2
 
