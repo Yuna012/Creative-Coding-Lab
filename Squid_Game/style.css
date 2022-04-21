@@ -1,3 +1,10 @@
+#SQUID {
+  width: 250px;
+  height: 300px;
+  margin: 30px;
+  padding: 20px;
+  background-color: cornflowerblue;
+}
 html, body {
   margin: 0;
   padding: 0;
