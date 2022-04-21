@@ -10,12 +10,13 @@ h1 {
 
 h3 {
   color: darkred;
+  font-weight: bold;
   font-family: "ZCOOL XiaoWei";
 }
 
 p {
-  color: green;
-  background-color: rgb(135, 217, 217);
+  color: rgb(12, 85, 12);
+  background-color: rgb(228, 252, 252);
 
   font-size: 20px;
   font-weight: normal;
