@@ -9,6 +9,20 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+h3 {
+  color: darkred;
+  font-family: "ZCOOL XiaoWei";
+}
+
+p {
+  color: green;
+  background-color: rgb(135, 217, 217);
+
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+}
 canvas {
   display: block;
 }
