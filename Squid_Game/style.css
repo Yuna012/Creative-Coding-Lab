@@ -3,6 +3,11 @@ html, body {
   padding: 0;
 }
 
+h1 {
+  color:rgb(238, 175, 30);
+  text-align: center;
+}
+
 h3 {
   color: darkred;
   font-family: "ZCOOL XiaoWei";
