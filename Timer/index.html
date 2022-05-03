@@ -4,55 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2ec560ffc5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<h1 class="heading">Custom Your Break-Time</h1>
-<style>
-    h1 {
-        position: fixed;
-        top: 0px;
-        left: 35%;
-        margin: 3px;
-        border: 5px;
-    }
-</style>
-
-    
-<div class="container">
-        <h2 inputmode="numeric" id="Hours" max="24" min="00" value="00" class="time">00</h2>
-        <h2 id="p1" class="semicolon">:</h2>
-        <h2 inputmode="numeric" id="Minutes" type="number" max="60" min="00" value="00" class="time">00</h2>
-        <h2 id="p2" class="semicolon">:</h2>
-        <h2 inputmode="numeric" id="Seconds" type="number" max="60" min="00" value="00" class="time">00</h2>
-        <style>
-        h2 {
-        text-align: center;
+    <h1 class="heading">Custom Your Break-Time</h1>
+    <style>
+        h1 {
+            position: fixed;
+            top: 0px;
+            left: 35%;
+            margin: 3px;
+            border: 5px;
         }
-        </style>
-        <button id="start" class="btn">Start</button>
+    </style>
+        
+    <div class="container">
         <style>
-            .btn {
-                transform: translate(-50%, -50%);
-                position: relative;
+            .container {
+                width: 1148;
             }
         </style>
-        <button id="reset" class="btn">Reset</button>
+            <div class="layer1">
+                <input type="number" id="Hours" max="24" min="00" value="00" class="time">
+                <input type="number" id="Minutes" max="60" min="00" value="00" class="time">
+                <input type="number" id="Seconds" max="60" min="00" value="00" class="time">
+            </div>
             <style>
-               p {
-                   top: 1000px;
-                   text-align: center;
-                   border: center;
-               }
-           </style>
-           <style>
-               .time {
-                align-items: center;
-               }
-           </style>
-        </div>
-    </div>
+                time {
+                    color: rgb(29, 29, 29);
+                    background-color: transparent;
+                }
+            </style>
+            <div class="layer2">
+                <h2 id="p1" class="semicolon">:</h2>
+                <h2 id="p2" class="semicolon">:</h2>
+                <h2 id="p2" class="semicolon"></h2>
+            </div>
+    
+            
+            <style>
+            h2 {
+            text-align: center;
+            }
+            </style>
+               <div class="layer3">
+                <button id="start"><i class="fa-regular fa-circle-play"></i></button>
+                <button id="reset"><i class="fa-solid fa-arrow-rotate-left"></i></button>
+                    <style>
+                       .start {
+                           top: 50%;
+                           left: 50%;
+                           text-align: center;
+                           border: center;
+                           position: fixed;
+                       }
+                   </style>
+                   <style>
+                    .reset {
+                        top: 50%;
+                        left: 50%;
+                        text-align: center;
+                        border: center;
+                        position: fixed;
+                    }
+                    </style>
+                </div>
     <script src="scrpt.js"></script>
+
 </body>
 </html>
+    
+ <!-- 
+<body>
+<div class="container">
+        <input type="number" id="Hours" max="24" min="00" value="00" class="time">
+        <input type="number" id="Minutes" type="number" max="60" min="00" value="00" class="time">
+        <input type="number" id="Seconds" type="number" max="60" min="00" value="00" class="time">
+</div>
+
+<div class="semicolon">
+    <p id="p1" class="semicolon">:</p>
+    <p id="p1" class="semicolon">:</p>
+</div>
+
+<div class="start/reset">
+    <button id="start"><i class="fa-solid fa-play"></i></button>
+    <button id="reset"><i class="fa-solid fa-rotate-right"></i></button>
+         <style>
+           .start {
+               top: 500px;
+               text-align: center;
+               border: center;
+               position: fixed;
+           }
+       </style>
+       <style>
+        .reset {
+            top: 500px;
+            text-align: center;
+            border: center;
+            position: fixed;
+        }
+    </style> -->
+    <!-- </div>
+
+    <script src="scrpt.js"></script>
+</body>
+</html> --> */ -->
