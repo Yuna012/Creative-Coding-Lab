@@ -1,0 +1,64 @@
+body {
+    font-family:  'ZCOOL XiaoWei', serif; 
+    background-color: rgb(29, 29, 29);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    top: 30%;
+    position: relative;
+    margin: 3px;
+    border: 5px;
+    padding: 1rem;
+}
+
+.heading {
+    color:white;
+}
+
+#container {
+    height: 200px;
+    width: 700px;
+    font-family:  'ZCOOL XiaoWei', serif; 
+    color:rgb(29, 29, 29);
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.time {
+    font-size: 20px;
+    color:rgb(245, 245, 245);
+    align-self: center;
+    justify-self: center;
+    column-gap: 10px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.semicolon {
+    border: center;
+    justify-self: center;
+    align-self: center;
+
+    font-size: 40px;
+    color:white;
+    margin: 0;
+    position: justify;
+    top: 30%;
+}
+
+.btn {
+    align-self: center;
+
+    width: 60px;
+    height: auto;
+    position: center;
+    top: 300px;
+    color: rgb(176, 176, 176);
+    background-color: rgb(29, 29, 29);
+
+    font-size: 20px;
+    border: none;
+    justify-self: center;
+    padding: 1px;
+}

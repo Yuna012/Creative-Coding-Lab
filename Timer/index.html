@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<h1 class="heading">Custom Your Break-Time</h1>
+<style>
+    h1 {
+        position: fixed;
+        top: 0px;
+        left: 35%;
+        margin: 3px;
+        border: 5px;
+    }
+</style>
+
+    
+<div class="container">
+        <h2 inputmode="numeric" id="Hours" max="24" min="00" value="00" class="time">00</h2>
+        <h2 id="p1" class="semicolon">:</h2>
+        <h2 inputmode="numeric" id="Minutes" type="number" max="60" min="00" value="00" class="time">00</h2>
+        <h2 id="p2" class="semicolon">:</h2>
+        <h2 inputmode="numeric" id="Seconds" type="number" max="60" min="00" value="00" class="time">00</h2>
+        <style>
+        h2 {
+        text-align: center;
+        }
+        </style>
+        <button id="start" class="btn">Start</button>
+        <style>
+            .btn {
+                transform: translate(-50%, -50%);
+                position: relative;
+            }
+        </style>
+        <button id="reset" class="btn">Reset</button>
+            <style>
+               p {
+                   top: 1000px;
+                   text-align: center;
+                   border: center;
+               }
+           </style>
+           <style>
+               .time {
+                align-items: center;
+               }
+           </style>
+        </div>
+    </div>
+    <script src="scrpt.js"></script>
+</body>
+</html>
