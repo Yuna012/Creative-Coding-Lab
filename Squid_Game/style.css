@@ -16,6 +16,10 @@ h3 {
   font-family: "ZCOOL XiaoWei";
 }
 
+.project {
+  size: 100px;
+}
+
 p {
   color: rgb(12, 85, 12);
   background-color: rgb(228, 252, 252);
