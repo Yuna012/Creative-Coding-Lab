@@ -18,7 +18,10 @@ h3 {
 
 .project {
   size: 100px;
+  top: 600px;
+  position: center;
 }
+
 
 p {
   color: rgb(12, 85, 12);
