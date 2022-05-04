@@ -19,7 +19,7 @@ let col = ["#f0f8ff","#F2B6DD","#00FFFF","#8a2Be2","#FFF0A5", "#F2E3D5","#ED7B96
 function setup() {
   createCanvas(windowWidth, windowHeight);
   frameRate(1);
-  background("black");
+  background("#1D1D1D");
   dia = 100;
   rnd = random(500);
   	X = mouseX;
