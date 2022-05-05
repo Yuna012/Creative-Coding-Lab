@@ -21,7 +21,7 @@ function timer(){
     }
     return;
 }  
-
+/* reset 버튼 여러번 누르면 시간 빨라지는 문제*/
 document.getElementById('start').addEventListener('click',function(){
     function startInterval(){
         startTimer = setInterval(function(){
