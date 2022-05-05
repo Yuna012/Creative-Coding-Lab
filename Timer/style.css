@@ -35,7 +35,7 @@ input::-webkit-inner-spin-button {
     left: 15%;
     position: center;
     size: 1000px;
-    block-size: 2500px;
+    block-size: 800px;
     border: none;
     justify-content: center;
     align-items: center;
