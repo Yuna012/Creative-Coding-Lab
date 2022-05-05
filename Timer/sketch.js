@@ -14,6 +14,9 @@ let s = 0.0;
 let X, Y;
 let rnd, clr;
 let numOfLines = (70, 100);
+
+let start = document.getElementById('start');
+let reset = document.getElementById('reset');
 let col = ["#f0f8ff","#F2B6DD","#00FFFF","#8a2Be2","#FFF0A5", "#F2E3D5","#ED7B96","#FF00FF","#adff2f","#FF59A4","#D99AA5","#4B0082","#fffacd","#add8e6 "];
 
 function setup() {
@@ -27,7 +30,7 @@ function setup() {
 }
 
 function draw() {
-  background("black");
+  background("#1D1D1D");
   let dim;
   let radius = dim / 2;
   let h = random(0, 360);
@@ -88,13 +91,13 @@ function draw() {
 //     loop();
 //   }
 // }
-  function mouseClicked() {
-	X = mouseX;
-	Y = mouseY;
-	noiseMax = random(4);
-	rnd = random(500);
-	clr = generateRandomColor();
-	fill(clr);
-	loop();
-}
+//   function mouseClicked() {
+// 	X = mouseX;
+// 	Y = mouseY;
+// 	noiseMax = random(4);
+// 	rnd = random(500);
+// 	clr = generateRandomColor();
+// 	fill(clr);
+// 	loop();
+// }
 }

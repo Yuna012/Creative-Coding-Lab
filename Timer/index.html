@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/2ec560ffc5.js" crossorigin="anonymous"></script>
-    <script src="sketch.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -22,6 +21,24 @@
     </style>
         
     <div class="container">
+        <div class="layer3">
+            <button id="start" class="button"><i class="fa-regular fa-circle-play"></i></button>
+            <button id="reset" class="button"><i class="fa-solid fa-arrow-rotate-left"></i></button>
+                <style>
+                   .layer3 {
+                       margin: none;
+                   }
+               </style>
+               <style>
+                .reset {
+                    top: 50%;
+                    left: 50%;
+                    text-align: center;
+                    border: center;
+                    position: fixed;
+                }
+                </style>
+            </div>
         <style>
             .container {
                 width: 1148;
@@ -33,6 +50,7 @@
             iframe {
                 width: 1000px;
                 height: 1000px;
+                border: none;
             }
         </style>
         </div>
@@ -59,30 +77,8 @@
             text-align: center;
             }
             </style>
-               <div class="layer3">
-                <button id="start"><i class="fa-regular fa-circle-play"></i></button>
-                <button id="reset"><i class="fa-solid fa-arrow-rotate-left"></i></button>
-                    <style>
-                       .start {
-                           top: 50%;
-                           left: 50%;
-                           text-align: center;
-                           border: center;
-                           position: fixed;
-                       }
-                   </style>
-                   <style>
-                    .reset {
-                        top: 50%;
-                        left: 50%;
-                        text-align: center;
-                        border: center;
-                        position: fixed;
-                    }
-                    </style>
-                </div>
     <script src="scrpt.js"></script>
-
+    <script src="sketch.js"></script>
 </body>
 </html>
     

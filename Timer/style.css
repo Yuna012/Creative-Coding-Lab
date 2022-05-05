@@ -23,15 +23,16 @@ body {
     border-color: transparent;
     color:white;
    position: relative;
+   margin: 0;
 }
-/* This deletes the arrow buttons in the number grid. Reference: https://codiving.kr/58 */
+/* This deletes the arrow buttons in the number grid. Reference: https://codiving.kr/58
 input::-webkit-inner-spin-button { 
     appearance: none; 
-}
+} */
 
   .layer0 {
     top: 30px;
-    left: 5%;
+    left: 15%;
     position: center;
     size: 1000px;
     block-size: 2500px;
@@ -47,6 +48,7 @@ input::-webkit-inner-spin-button {
     height:100px;
     top: 250px;
     left: 28%;
+    background-color: transparent;
     justify-content: center;
     align-items: center;
     position:absolute;
@@ -93,11 +95,11 @@ h2 {
 
 .layer3 {
     width: 70px;
-    height: 80px;
-    size: auto;
+    height: 50px;
+    size: 80px;
     padding: 0px;
     position: relative;
-    top: 200px;
+    top: 1100px;
     left: 80%;
     color: rgb(176, 176, 176);
     background-color: rgb(29, 29, 29);

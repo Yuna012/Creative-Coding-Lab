@@ -1,6 +1,3 @@
-var start = document.getElementById('start');
-var reset = document.getElementById('reset');
-
 var h = document.getElementById('Hours');
 var m = document.getElementById('Minutes');
 var s = document.getElementById('Seconds');
@@ -29,7 +26,7 @@ function stopTimer(){
     clearInterval(startTimer);
 }
 
-start.addEventListener('click',function(){
+document.getElementById('start').addEventListener('click',function(){
     function startInterval(){
         startTimer = setInterval(function(){
             timer();
@@ -38,7 +35,7 @@ start.addEventListener('click',function(){
     startInterval()
 })
 
-reset.addEventListener('click', function(){
+document.getElementById('reset').addEventListener('click', function(){
     h.value = 0;
     m.value = 0;
     s.value = 0;
