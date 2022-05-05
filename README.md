@@ -2,6 +2,11 @@
  Repository for Creative Coding Lab, Spring 2022 (IMA, NYU SH). Access it on [Creative Coding Lab](https://yuna012.github.io/Creative-Coding-Lab/).
 
 ---
+NEW!!!
+[Timer](https://yuna012.github.io/Creative-Coding-Lab/Timer).
+Project B
+
+---
 
 [Glimpse_of_Seoul](https://yuna012.github.io/Creative-Coding-Lab/Glimpse_of_Seoul).
 Project1
