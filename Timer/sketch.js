@@ -43,6 +43,7 @@ function draw() {
 function draw() {
   translate(width /2, height /2);
   fill(random(col));
+  saturation(120);
   rotate(frameRate * 2);
   noStroke();
   for (let v = radius; v > 0; --v){
