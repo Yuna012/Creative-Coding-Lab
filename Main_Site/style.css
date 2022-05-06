@@ -1,49 +1,37 @@
 body {
     font-family:  'ZCOOL XiaoWei', serif; 
     background-color: rgb(29, 29, 29);
-    color:rgb(57, 57, 57);
+    color:rgba(246, 245, 245, 0.589);
+    border-color:rgba(149, 149, 149, 0.589);
     text-align: center;
-    top: 30%;
     position: relative;
-    margin: 0px;
-    border: 5px;
-    padding: 1rem;
-    width: 100%;
 }
 .menubox {
-    position: relative;
-    position:absolute;
-    align-content: flex-start;
     display: flex;
-    border-color:rgb(176, 176, 176);
-    border-width: 100%;
-    size: 60px;
-    margin-left: 0%;
-    flex-direction: column;
+    flex-direction:column;
+    align-content:space-around;
+    align-content: center;
+    max-width: 1400px;
+    margin: 0;
+    border:3px rgb(245, 245, 245);
+    gap: 90%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
-.name {
-    align-content: flex-start;
-    display: flex;
-    text-align: end;
-    position:absolute;
-    border-color:rgb(176, 176, 176);
-    border-width: 100%;
-    size: 60px;
-    right: 4%;
-}
-
-.heading {
+.to_Timer {
     color:white;
-    top: 100px;
-    left: 20px;
+    font-size: 200px;
+    font-family: 'LIBRARY 3 AM', sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    align-content: center;
+    place-content: center;
+    position: relative;
+    top: 300px;
 }
 
 #container {
-    height: 100vh;
-    width: 100vh;
-    padding-left: 50px;
-    font-family:  'ZCOOL XiaoWei', serif; 
     border-color: transparent;
     color:white;
    position: relative;
@@ -70,7 +58,7 @@ input::-webkit-inner-spin-button {
   .layer1{
     width:900px;
     height:100px;
-    top: 250px;
+    top: 2000px;
     left: 16%;
     background-color: transparent;
     justify-content: center;
@@ -81,7 +69,7 @@ input::-webkit-inner-spin-button {
   .layer2{
     width:900px;
     height:100px;
-    top: 230px;
+    top: 2000px;
     justify-content: center;
     align-items: center;
     position:absolute;
@@ -89,22 +77,7 @@ input::-webkit-inner-spin-button {
     left:24%;
   }
 
-h2 {
-    text-align: center;
-}
-.time {
-    font-size: 50px;
-    color:rgb(245, 245, 245);
-    background-color: transparent;
-    border-color: transparent;
-    padding: none;
-    margin-top: 330px;
-    margin-left: 100px;
-    width: 100px;
-    height: auto;
-    display: inline-block;
-    text-align: center;
-}
+
 
 .semicolon {
     font-size: 40px;
@@ -115,32 +88,4 @@ h2 {
     display: inline-block;
     text-align: center;
     margin-left: 100px;
-}
-
-/* 버튼 위로 올리기*/
-.layer3 {
-    width: 70px;
-    height: 50px;
-    size: 80px;
-    padding: 0px;
-    position: relative;
-    top: 1100px;
-    left: 50%;
-    color: rgb(176, 176, 176);
-    background-color: rgb(29, 29, 29);
-    border: none;
-    justify-self: center;
-    margin: 0px;
-}
-
-.paragraph {
-    color:rgb(176, 176, 176);
-    width: 140px;
-    height: 80px;
-    left: 50%;
-    text-align: center;
-    margin: 0;
-    padding-top: 210px;
-    display: flex;
-    align-content: flex-start;
 }
