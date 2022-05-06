@@ -24,6 +24,7 @@ body {
 
 .name {
     align-content: flex-start;
+    text-decoration: none;
     display: flex;
     text-align: end;
     position:absolute;
