@@ -1,13 +1,16 @@
 body {
     font-family:  'ZCOOL XiaoWei', serif; 
-    background-color: rgb(29, 29, 29);
     color:rgba(246, 245, 245, 0.589);
     border-color:rgba(149, 149, 149, 0.589);
+    background-image: url("/screenshots/background.jpg");
+    background-color: rgba(0, 0, 255, 0.161);
+    background-position: 50% 50%;
     text-align: center;
     position: relative;
 }
 .menubox {
     display: flex;
+    font-weight: bold;
     flex-direction:column;
     align-content:space-around;
     align-content: center;
@@ -19,6 +22,14 @@ body {
     justify-content: flex-start;
 }
 
+.information {
+    position: relative;
+    display: flex;
+    font-weight: bold;
+    margin: 0;
+    justify-self: flex-start;
+
+}
 .to_Timer {
     color:white;
     font-size: 200px;
