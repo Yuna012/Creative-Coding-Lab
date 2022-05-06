@@ -1,0 +1,146 @@
+body {
+    font-family:  'ZCOOL XiaoWei', serif; 
+    background-color: rgb(29, 29, 29);
+    color:rgb(57, 57, 57);
+    text-align: center;
+    top: 30%;
+    position: relative;
+    margin: 0px;
+    border: 5px;
+    padding: 1rem;
+    width: 100%;
+}
+.menubox {
+    position: relative;
+    position:absolute;
+    align-content: flex-start;
+    display: flex;
+    border-color:rgb(176, 176, 176);
+    border-width: 100%;
+    size: 60px;
+    margin-left: 0%;
+    flex-direction: column;
+}
+
+.name {
+    align-content: flex-start;
+    display: flex;
+    text-align: end;
+    position:absolute;
+    border-color:rgb(176, 176, 176);
+    border-width: 100%;
+    size: 60px;
+    right: 4%;
+}
+
+.heading {
+    color:white;
+    top: 100px;
+    left: 20px;
+}
+
+#container {
+    height: 100vh;
+    width: 100vh;
+    padding-left: 50px;
+    font-family:  'ZCOOL XiaoWei', serif; 
+    border-color: transparent;
+    color:white;
+   position: relative;
+   margin: 0;
+}
+/* This deletes the arrow buttons in the number grid. Reference: https://codiving.kr/58
+input::-webkit-inner-spin-button { 
+    appearance: none; 
+} */
+
+  .layer0 {
+    top: 150px;
+    left: 15%;
+    position: center;
+    size: 1000px;
+    block-size: 800px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    z-index: 1;
+  }
+
+  .layer1{
+    width:900px;
+    height:100px;
+    top: 250px;
+    left: 16%;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    z-index: 1;
+  }
+  .layer2{
+    width:900px;
+    height:100px;
+    top: 230px;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    z-index: 2;
+    left:24%;
+  }
+
+h2 {
+    text-align: center;
+}
+.time {
+    font-size: 50px;
+    color:rgb(245, 245, 245);
+    background-color: transparent;
+    border-color: transparent;
+    padding: none;
+    margin-top: 330px;
+    margin-left: 100px;
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.semicolon {
+    font-size: 40px;
+    color:white;
+    top: 25%;
+    width: 100px;
+    margin-top: 330px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+}
+
+/* 버튼 위로 올리기*/
+.layer3 {
+    width: 70px;
+    height: 50px;
+    size: 80px;
+    padding: 0px;
+    position: relative;
+    top: 1100px;
+    left: 50%;
+    color: rgb(176, 176, 176);
+    background-color: rgb(29, 29, 29);
+    border: none;
+    justify-self: center;
+    margin: 0px;
+}
+
+.paragraph {
+    color:rgb(176, 176, 176);
+    width: 140px;
+    height: 80px;
+    left: 50%;
+    text-align: center;
+    margin: 0;
+    padding-top: 210px;
+    display: flex;
+    align-content: flex-start;
+}
