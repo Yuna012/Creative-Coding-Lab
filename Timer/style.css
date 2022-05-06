@@ -36,6 +36,8 @@ body {
 
 .heading {
     color:white;
+    size: 100px;
+    height: 100px;
     top: 100px;
     left: 20px;
 }
