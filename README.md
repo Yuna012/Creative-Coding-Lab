@@ -3,7 +3,7 @@
 
 ---
 NEW!!!
-[Timer](https://yuna012.github.io/Creative-Coding-Lab/Timer).
+[Timer](https://yuna012.github.io/Creative-Coding-Lab/Main_Site).
 Project B
 
 ---
