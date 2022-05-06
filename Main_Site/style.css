@@ -51,10 +51,6 @@ body {
    position: relative;
    margin: 0;
 }
-/* This deletes the arrow buttons in the number grid. Reference: https://codiving.kr/58
-input::-webkit-inner-spin-button { 
-    appearance: none; 
-} */
 
   .layer0 {
     top: 150px;
