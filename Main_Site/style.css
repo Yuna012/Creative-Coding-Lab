@@ -4,7 +4,7 @@ body {
     border-color:rgba(149, 149, 149, 0.589);
     background-image: url("/screenshots/background.jpg");
     background-color: rgba(0, 0, 255, 0.161);
-    background-position: 50% 50%;
+    background-position: 64% 35%;
     text-align: center;
     position: relative;
 }
@@ -24,8 +24,11 @@ body {
 
 .information {
     position: relative;
-    display: flex;
     font-weight: bold;
+    text-align: left;
+    font-size: 40px;
+    border: auto;
+    border-color: rgba(250, 235, 215, 0.811);
     margin: 0;
     justify-self: flex-start;
 
@@ -69,7 +72,7 @@ input::-webkit-inner-spin-button {
   .layer1{
     width:900px;
     height:100px;
-    top: 2000px;
+    top: 500px;
     left: 16%;
     background-color: transparent;
     justify-content: center;
@@ -79,8 +82,9 @@ input::-webkit-inner-spin-button {
   }
   .layer2{
     width:900px;
+    color: transparent;
     height:100px;
-    top: 2000px;
+    top: 570px;
     justify-content: center;
     align-items: center;
     position:absolute;
