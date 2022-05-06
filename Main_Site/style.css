@@ -3,7 +3,6 @@ body {
     color:rgba(246, 245, 245, 0.589);
     border-color:rgba(149, 149, 149, 0.589);
     background-image: url("/screenshots/background.jpg");
-    background-color: rgba(0, 0, 255, 0.161);
     background-position: 64% 35%;
     text-align: center;
     position: relative;
