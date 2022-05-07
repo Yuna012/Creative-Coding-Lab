@@ -3,6 +3,7 @@
     font-weight: bolder;
     margin-top: 150px;
     color: rgb(229, 65, 229);
+    text-shadow: 5px 5px #e8a7f7;
     align-self: center;
     height: 150px;
     font-family: 'Cagliostro', sans-serif;
@@ -32,6 +33,7 @@ body {
 .backpage {
     position: absolute;
     color: rgb(214, 110, 214);
+    text-shadow: 2px 1px 2px rgb(255, 255, 255);
     left: 5%;
     top: 100px;
     font-size: 60px;
