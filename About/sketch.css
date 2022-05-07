@@ -12,7 +12,7 @@ body {
     font-family:'Cagliostro', sans-serif;
     color: plum;
     text-align: center;
-    background-image: 'silkTex.jpeg';
+    background-image: 'silkTex.jpeg', 0.5;
     background-color: rgba(255, 235, 205, 0.647);
     
 }
@@ -40,4 +40,17 @@ body {
     margin: 0;
     font-weight: bolder;
     text-decoration: none;
+}
+
+.background {
+    overflow: hidden;
+    position: relative;
+}
+.silk {
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
 }
