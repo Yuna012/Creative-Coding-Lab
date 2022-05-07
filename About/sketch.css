@@ -12,6 +12,9 @@ body {
     font-family:'Cagliostro', sans-serif;
     color: plum;
     text-align: center;
+    background-image: 'silkTex.jpeg';
+    background-repeat: none;
+    background-size: auto;
     /* background-color: rgba(255, 235, 205, 0.647); */
     
 }
