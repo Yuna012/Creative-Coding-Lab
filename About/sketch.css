@@ -27,4 +27,5 @@ body {
     left: 5%;
     size: 50px;
     font-weight: bold;
+    appearance: none;
 }
