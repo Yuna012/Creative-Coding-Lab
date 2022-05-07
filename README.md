@@ -3,7 +3,7 @@
 
 ---
 NEW!!!
-[Timer](http://127.0.0.1:5500/Main_Site/).
+[Timer](http://127.0.0.1:5500/ProjectB/).
 Project B
 
 ---
