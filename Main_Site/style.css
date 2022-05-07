@@ -5,9 +5,10 @@ body {
     background-image: url("/screenshots/background.jpg");
     background-repeat: no-repeat;
     background-size:auto;
-    background-position: 64% 35%;
+    background-position: 64% 55%;
     text-align: center;
     position: relative;
+    text-decoration: none;
 }
 .menubox {
     display: flex;
@@ -31,8 +32,8 @@ body {
   align-content: center;
   place-content: center;
   position: relative;
-  margin-bottom: 100px;
-  padding: 0;
+  margin: 60px;
+  padding: 0px;
   text-indent: 5px;
 }
 
@@ -50,15 +51,17 @@ body {
     justify-self: flex-start;
 
 }
-.heading {
+.to_Timer {
   color:white;
   font-size: 200px;
   font-family: 'LIBRARY 3 AM', sans-serif;
+  height: 300px;
   font-weight: bolder;
   align-content: center;
   place-content: center;
   position: relative;
   margin: 50px;
-  top: 180px;
+  padding: 0;
+  top: 160px;
   text-decoration: none;
 }
