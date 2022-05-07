@@ -1,15 +1,16 @@
-title {
+.header {
     font-size: xx-large;
     font-weight: bolder;
     color: plum;
     align-self: center;
     top: 100px;
+    font-family: Cagliostro', sans-serif;
 }
 body {
     font-family:'Cagliostro', sans-serif;
     color: plum;
     text-align: center;
-    background-color: blanchedalmond;;
+    background-color: blanchedalmond;
     
 }
 .Paragraph {
@@ -18,7 +19,7 @@ body {
     color: plum;
     text-align: center;
     align-self: center;
-    top: 200px;
+    top: 500px;
     margin: 0;
     padding: 0;
     left: 50%;
