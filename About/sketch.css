@@ -1,10 +1,11 @@
 .header {
     font-size: xx-large;
     font-weight: bolder;
+    text-align: center;
     color: plum;
     align-self: center;
     top: 100px;
-    font-family: Cagliostro', sans-serif;
+    font-family: 'Cagliostro', sans-serif;
 }
 body {
     font-family:'Cagliostro', sans-serif;
