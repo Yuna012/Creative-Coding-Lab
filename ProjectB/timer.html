@@ -7,7 +7,6 @@
   <script src="https://kit.fontawesome.com/2ec560ffc5.js" crossorigin="anonymous"></script>
   <script src="libraries/p5.js" type="text/javascript"></script>
   <script src="libraries/p5.sound.min.js" type="text/javascript"></script>
-  <script src="sketchTex.js"></script>
   <script src="timer:sketch.js" type="text/javascript"></script>
   <link rel="stylesheet" href="css/timer.css">
 </head>
@@ -22,27 +21,16 @@
     <!-- layer 0 = project, layer 1 = time, layer 2 = semicolon, layer 3 = buttons, layer 4 = instruction -->
     <div class="layer4">
       Instruction
+      <div class="paragraph">
+        <p class="paragraph"> You can write down the desired time by pressing the number, or you can easily set it by pressing the up/down arrow buttons. <br> Press the play button to start the timer and overwind button to reset.
+          <br>The flowers in the background are created infinitely, so you can press the flower to stop it if it bothers you. <br>However, it has not yet advanced to the stage where flowers are created again.</p>
+      </div>
     </div>
 
     <div class="layer3">
       <button id="start" type="button"><i class="fa-regular fa-circle-play"></i></button>
       <button id="reset" type="button"><i class="fa-solid fa-arrow-rotate-left"></i></button>
     </div>
-
-    <!--
-    <div class="layer0">
-      <iframe src="https://editor.p5js.org/Yuna012/full/gj9lVN13t"></iframe>
-      <style>
-      iframe {
-        width: 1000px;
-        height: 1000px;
-        align-self: center;
-        border: none;
-        border-collapse: collapse;
-      }
-      </style>
-    </div>
-    -->
 
     <div class="layer1">
       <input type="number" id="Hours" max="24" min="00" value="00" class="time">
@@ -54,11 +42,6 @@
       <h2 id="p1" class="semicolon">:</h2>
       <h2 id="p2" class="semicolon">:</h2>
       <h2 id="p2" class="semicolon"></h2>
-    </div>
-
-    <div class="explanation">
-      <p class="paragraph"> You can write down the desired time by pressing the number, or you can easily set it by pressing the up/down arrow buttons. <br> Press the play button to start the timer and overwind button to reset.
-        <br>The flowers in the background are created infinitely, so you can press the flower to stop it if it bothers you. <br>However, it has not yet advanced to the stage where flowers are created again.</p>
     </div>
 </body>
 </html>
