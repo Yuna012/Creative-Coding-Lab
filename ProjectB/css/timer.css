@@ -4,7 +4,10 @@ body {
   color:rgb(57, 57, 57);
   top: 30%;
   position: relative;
-  background-image: linear-gradient(140deg, pink, skyblue);
+  background-image: url('../pictures/sea.jpg');
+  background-size: cover;
+  background-position-y: 40%;
+  /* background-image: linear-gradient(140deg, pink, skyblue); */
   margin: 0px;
   border: 5px;
   padding: 1rem;
@@ -73,5 +76,5 @@ body {
   align-self: center;
   left: 90%;
   margin: 0;
-  size: 500px;
+  size: 300px;
 }
