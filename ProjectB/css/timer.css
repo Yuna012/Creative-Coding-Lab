@@ -31,6 +31,7 @@ body {
   border-color:rgb(176, 176, 176);
   border-width: 100%;
   font-size: 30px;
+  top: 20px;
   right: 4%;
 }
 
@@ -42,7 +43,7 @@ body {
   left: 20px;
 }
 
-#container {
+/* #container {
   height: 100vh;
   width: 100vh;
   padding-left: 50px;
@@ -51,7 +52,7 @@ body {
   color:white;
  position: relative;
  margin: 0;
-}
+} */
 /* This deletes the arrow buttons in the number grid. Reference: https://codiving.kr/58
 input::-webkit-inner-spin-button { 
   appearance: none; 
@@ -59,91 +60,29 @@ input::-webkit-inner-spin-button {
 
 .layer0 {
   top: 150px;
-  left: 15%;
+  left: 23%;
   position: center;
-  size: 1000px;
-  block-size: 800px;
+  size: 100px;
   border: none;
   justify-content: center;
   align-items: center;
   position:absolute;
-  z-index: 1;
 }
 
-.layer1{
-  width:900px;
-  height:100px;
-  top: 250px;
-  left: 16%;
-  background-color: transparent;
-  justify-content: center;
-  align-items: center;
-  position:absolute;
-  z-index: 1;
-}
-.layer2{
-  width:900px;
-  height:100px;
-  top: 230px;
-  justify-content: center;
-  align-items: center;
-  position:absolute;
-  z-index: 2;
-  left:24%;
-}
-
-h2 {
-  text-align: center;
-}
-.time {
-  font-size: 50px;
-  color:rgb(245, 245, 245);
-  background-color: transparent;
-  border-color: transparent;
-  padding: none;
-  margin-top: 330px;
-  margin-left: 100px;
-  width: 100px;
-  height: auto;
-  display: inline-block;
-  text-align: center;
-}
-
-.semicolon {
-  font-size: 40px;
-  color:white;
-  top: 25%;
-  width: 100px;
-  margin-top: 330px;
-  display: inline-block;
-  text-align: center;
-  margin-left: 100px;
-}
-
-/* 버튼 위로 올리기*/
-.layer3 {
-  width: 70px;
-  height: 50px;
-  size: 80px;
-  padding: 0px;
-  position: relative;
-  top: 1100px;
-  left: 50%;
-  color: rgb(176, 176, 176);
-  background-color: rgb(29, 29, 29);
-  border: none;
-  justify-self: center;
-  margin: 0px;
-}
 
 .paragraph {
   color:rgb(176, 176, 176);
-  width: 140px;
+  width: 800px;
   height: 80px;
-  left: 50%;
+  left: 23%;
   text-align: center;
   margin: 0;
-  padding-top: 210px;
-  display: flex;
-  align-content: flex-start;
+  align-self: center;
+}
+
+.clock {
+  top: 300px;
+  align-self: center;
+  margin: 0;
+  size: 500px;
 }
