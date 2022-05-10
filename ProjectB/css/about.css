@@ -12,7 +12,7 @@ body {
     font-family:'Cagliostro', sans-serif;
     color: plum;
     text-align: center;
-    background-image: 'silkTex.jpeg';
+    background-image: url("../pictures/sky.jpg");
     background-repeat: none;
     background-size: auto;
     /* background-color: rgba(255, 235, 205, 0.647); */  
@@ -20,7 +20,9 @@ body {
 .Paragraph {
     align-content: center;
     position: center;
-    color: plum;
+    color: #e8a7f7;
+    font-weight: bolder;
+    text-shadow: 2px 2px rgb(234, 90, 234);
     text-align: center;
     align-self: center;
     font-size: 30px;

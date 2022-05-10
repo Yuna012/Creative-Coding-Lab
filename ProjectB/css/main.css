@@ -1,11 +1,11 @@
 body {
     font-family:  'ZCOOL XiaoWei', serif; 
     color:rgb(203, 187, 227);
-    border-color:rgba(149, 149, 149, 0.589);
-    background-image: url("/screenshots/background.jpg");
+    text-shadow: 2px 2px rgba(149, 149, 149, 0.589);
+    background-image: url("../pictures/ocean.jpg");
     background-repeat: no-repeat;
-    background-size:auto;
-    background-position: 64% 55%;
+    background-size: auto;
+    background-position: 50% 54%;
     text-align: center;
     position: relative;
     text-decoration: none;
