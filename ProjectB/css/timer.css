@@ -4,23 +4,20 @@ body {
   color:rgb(57, 57, 57);
   top: 30%;
   position: relative;
-  background-image: url('../pictures/sea.jpg');
-  background-size: cover;
+  background-size: 1800px 1400px;
+  background-repeat: none;
   background-position-y: 40%;
-  /* background-image: linear-gradient(140deg, pink, skyblue); */
+  background-image: linear-gradient(140deg, rgb(252, 140, 159), skyblue);
   margin: 0px;
   border: 5px;
+  size: fill;
   padding: 1rem;
   width: 100%;
 }
 .menubox {
   position: relative;
   position: absolute;
-  border-color:rgb(176, 176, 176);
-  border-width: 100%;
   size: 60px;
-  flex-direction: column;
-  text-align: right;
   right: 5%;
 }
 
@@ -70,11 +67,3 @@ body {
   align-self: absolute;
 }
 
-.clock {
-  top: 300px;
-  position: absolute;
-  align-self: center;
-  left: 90%;
-  margin: 0;
-  size: 300px;
-}
