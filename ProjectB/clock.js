@@ -6,16 +6,16 @@ background(255);
 let hours, minutes;
 
 function draw() {
-clockFace();
+clock();
 showTime(hour(), minute());
 }
 
-function showTime(hours, minutes, millis){
+function showTime(hours, minutes){
 //hour
 push();
 strokeWeight(7);
 stroke("#261715");
-rotate(radians(minutes/60));
+rotate(radians(30 * hours + 0.5*minutes));
 line(0, 0, 0, 80);
 pop();
 //minute
@@ -27,7 +27,7 @@ line(0, 0, 0, 95);
 pop();
 }
 
-function clockFace() {
+function clock() {
 stroke(0);
 ellipse(width/2, height/2, height*.4, height*.4);
 translate(width/2, height/2);

@@ -45,25 +45,20 @@ body {
 
 .layer0 {
   top: 150px;
-  left: 48%;
-  position: center;
+  position: relative;
   size: 100px;
+  color: aqua;
   border: none;
-  justify-content: center;
-  align-items: center;
-  position:absolute;
-}
-
-
-.paragraph {
-  color:rgb(176, 176, 176);
-  width: 800px;
+  width: 600px;
   height: 80px;
   top: 5px;
-  position: relative;
-  right: 48%;
+  left: 50%;
   text-align: center;
   margin: 0;
-  align-self: absolute;
+  margin-right: 0%;
 }
 
+.paragraph {
+  margin-right: 0%;
+  color:rgb(48, 55, 86);
+}
