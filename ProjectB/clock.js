@@ -4,10 +4,15 @@ background(255);
 }
 
 let hours, minutes;
+let color = ["#FFF670","#FF8076","#FCB571","#98FF78","#B7C4FC"];
 
 function draw() {
 clock();
 showTime(hour(), minute());
+fill(random(color));
+if(mouseIsPressed == true){
+    
+}
 }
 
 function showTime(hours, minutes){
@@ -27,10 +32,9 @@ line(0, 0, 0, 95);
 pop();
 }
 
-function clock() {
+function clock() { 
 stroke(0);
 ellipse(width/2, height/2, height*.4, height*.4);
 translate(width/2, height/2);
 rotate(PI);
-
 }
