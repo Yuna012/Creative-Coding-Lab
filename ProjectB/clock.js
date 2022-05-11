@@ -3,10 +3,13 @@ let seqTime = 0;
 let hours, minutes;
 
 function setup() {
-  createCanvas(600, 800);
+    img = createImage(800, 800);
   background(255);
 }
 
+function mousePressed() {
+    save(img, 'myImage.png');
+}
 function draw() {
   background(50);
   
