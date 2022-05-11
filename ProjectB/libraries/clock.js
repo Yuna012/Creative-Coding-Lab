@@ -9,15 +9,15 @@ let hours, minutes;
 let a, b, c, d, e, f, g, h;
 
 function preload() {
-  a = loadFont('Macondo-Regular.ttf');
-  b = loadFont('Montserrat-Modern.ttf');
-  c = loadFont('Satisfy-Vintage.ttf');
-  d = loadFont('Acme-Jungle.ttf');
-  e = loadFont('DancingScript-CottonCandy.ttf');
-  f = loadFont('Cinzel-Office.ttf');
-  g = loadFont('PaytoneOne-NYU.ttf');
-  h = loadFont('Greek.ttf');
-  paint = loadImage('coconut-tree.png');
+  a = loadFont("../fonts/Macondo-Regular.ttf");
+  b = loadFont('../fonts/Montserrat-Modern.ttf');
+  c = loadFont('../fonts/Satisfy-Vintage.ttf');
+  d = loadFont('../fonts/Acme-Jungle.ttf');
+  e = loadFont('../fonts/DancingScript-CottonCandy.ttf');
+  f = loadFont('../fonts/Cinzel-Office.ttf');
+  g = loadFont('../fonts/PaytoneOne-NYU.ttf');
+  h = loadFont('../fonts/Greek.ttf');
+  paint = loadImage('../fonts/coconut-tree.png');
 }
 
 function setup() {
@@ -29,9 +29,6 @@ function setup() {
   ySpd = random(-2, 2);
   dia = random(80, 130);
 }
-// function mousePressed(){
-//   save(img, 'YourClock.png');
-// }
 
 function draw() {
   background(50);
@@ -136,6 +133,10 @@ rotate(PI);
 
 function keyPressed() {
   proceedSequence();
+  if(key == " ") {
+    save(img, 'YourClock.png');
+  }
+
 }
 
 function proceedSequence() {

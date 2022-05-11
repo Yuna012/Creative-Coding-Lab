@@ -14,6 +14,11 @@ body {
   padding: 1rem;
   width: 100%;
 }
+
+h1.heading {
+  margin: 0%;
+  height: 50px;
+}
 .menubox {
   position: relative;
   position: absolute;
@@ -22,14 +27,15 @@ body {
 }
 
 .name {
-  align-self: relative;
+  align-self: absolute;
   text-decoration: none;
   text-align: left;
-  position: sticky;
+  position: top;
+  margin: 0%;
   border-color:rgb(176, 176, 176);
   border-width: 100%;
   font-size: 30px;
-  top: 0px;
+  top: -50px;
   left: 4%;
 }
 
