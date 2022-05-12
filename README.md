@@ -3,7 +3,7 @@
 
 ---
 NEW!!!
-[Timer](http://127.0.0.1:5500/ProjectB/).
+[TikTok](https://yuna012.github.io/Creative-Coding-Lab/Clock).
 Project B
 
 ---
