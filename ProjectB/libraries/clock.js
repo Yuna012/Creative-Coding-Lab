@@ -90,6 +90,10 @@ function draw() {
         break;
     default:
       drawEnding();
+  let Q = '"It always seems impossible until it is done." - Nelson Mandela - ';
+  rectMode(CENTER);
+  textSize(23);
+  text(Q, width / 2, 500, 520, 60);
       break;
   }
   x = x + xSpd;
