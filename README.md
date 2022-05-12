@@ -3,7 +3,7 @@
 
 ---
 NEW!!!
-[TikTok](https://yuna012.github.io/Creative-Coding-Lab/Clock).
+[TikTok](https://yuna012.github.io/Creative-Coding-Lab/ProjectB).
 Project B
 
 ---
