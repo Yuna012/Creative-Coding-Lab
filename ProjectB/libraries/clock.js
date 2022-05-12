@@ -9,15 +9,15 @@ let hours, minutes;
 let a, b, c, d, e, f, g, h;
 
 function preload() {
-  a = loadFont("../fonts/Macondo-Regular.ttf");
-  b = loadFont('../fonts/Montserrat-Modern.ttf');
-  c = loadFont('../fonts/Satisfy-Vintage.ttf');
-  d = loadFont('../fonts/Acme-Jungle.ttf');
-  e = loadFont('../fonts/DancingScript-CottonCandy.ttf');
-  f = loadFont('../fonts/Cinzel-Office.ttf');
-  g = loadFont('../fonts/PaytoneOne-NYU.ttf');
-  h = loadFont('../fonts/Greek.ttf');
-  paint = loadImage('../fonts/coconut-tree.png');
+  a = loadFont("../ProjectB/libraries/fonts/Macondo-Regular.ttf");
+  b = loadFont('../ProjectB/libraries/fonts/Montserrat-Modern.ttf');
+  c = loadFont('../ProjectB/libraries/fonts/Satisfy-Vintage.ttf');
+  d = loadFont('../ProjectB/libraries/fonts/Acme-Jungle.ttf');
+  e = loadFont('../ProjectB/libraries/fonts/DancingScript-CottonCandy.ttf');
+  f = loadFont('../ProjectB/libraries/fonts/Cinzel-Office.ttf');
+  g = loadFont('../ProjectB/libraries/fonts/PaytoneOne-NYU.ttf');
+  h = loadFont('../ProjectB/libraries/fonts/Greek.ttf');
+  paint = loadImage('../ProjectB/libraries/fonts/coconut-tree.png');
 }
 
 function setup() {
