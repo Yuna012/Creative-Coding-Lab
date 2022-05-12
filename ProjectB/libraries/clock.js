@@ -7,6 +7,7 @@ let xSpd, ySpd;
 let dia;
 let hours, minutes;
 let a, b, c, d, e, f, g, h;
+const s = document.getElementById("screenshot");
 
 function preload() {
   a = loadFont("../ProjectB/fonts/Macondo-Regular.ttf");
@@ -133,11 +134,11 @@ rotate(PI);
 
 function keyPressed() {
   proceedSequence();
-  if(key == " ") {
-    save(img, 'YourClock.png');
-  }
-
 }
+
+s.addEventListener('click', function() {
+  save(img, 'Your Clock.png');
+});
 
 function proceedSequence() {
   seq++;
