@@ -17,7 +17,9 @@ body {
 
 h1.heading {
   margin: 0%;
-  height: 50px;
+  height: 10px;
+  font-weight: 900;
+  font-size: 80px;
 }
 .menubox {
   position: relative;
