@@ -3,7 +3,7 @@
 
 ---
 NEW!!!
-[TikTok](https://yuna012.github.io/Creative-Coding-Lab/ProjectB).
+[4-7-8](https://yuna012.github.io/Creative-Coding-Lab/4-7-8).
 Project B
 
 ---
