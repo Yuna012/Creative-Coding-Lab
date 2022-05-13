@@ -1,0 +1,61 @@
+.header {
+    font-size: 70px;
+    font-weight: bolder;
+    margin-top: 150px;
+    color: rgb(229, 65, 229);
+    text-shadow: 5px 5px #e8a7f7;
+    align-self: center;
+    height: 150px;
+    font-family: 'Cagliostro', sans-serif;
+}
+body {
+    font-family:'Cagliostro', sans-serif;
+    color: plum;
+    text-align: center;
+    background-image: linear-gradient(60deg, rgb(253, 168, 83), rgb(255, 141, 228));
+    background-repeat: none;
+    background-size: 2100px 1500px;
+    /* background-color: rgba(255, 235, 205, 0.647); */
+}
+.Paragraph {
+    align-content: center;
+    position: center;
+    color: #FFDDDD;
+    font-weight: bolder;
+    /*text-shadow: 2px 2px rgb(213, 82, 213);
+    */
+    text-align: center;
+    align-self: center;
+    font-size: 24px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+    padding: 0;
+    left: 50%;
+}
+
+.backpage {
+    position: absolute;
+    color: rgb(214, 110, 214);
+    text-shadow: 2px 1px 2px rgb(255, 255, 255);
+    left: 5%;
+    top: 100px;
+    font-size: 60px;
+    margin: 0;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.background {
+    overflow: hidden;
+    position: relative;
+}
+.silk {
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background-image: 'silkTex.jpeg';
+}
