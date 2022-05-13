@@ -6,7 +6,7 @@ let paint;
 let xSpd, ySpd;
 let dia;
 let hours, minutes;
-let g = loadFont('fonts/Greek.ttf');
+let g;
 
 let counter4 = 0;
 let counter7 = 0;
@@ -16,6 +16,9 @@ let counter = 0;
 let hue;
 let radius;
 
+function preload() {
+  g = loadFont('fonts/Font.ttf');
+}
 function setup() {
   let img = createCanvas(windowWidth, 850);
   x = random(150, 250);
